@@ -39,7 +39,7 @@ git checkout -b feature/<your-name>
 - yangi papkani ichida index.html faylini yarating
 - faylni ichiga \*namunaga asoslangan holda o'zingizni sahifangizni tayyorlang (kodni o'zingiz yozishingiz yoki AI dan foydalanishingiz mumkin, bu ahamiyatsiz)
 
-    > \* [namunaga havola](https://dxsjnxaknsx.netlify.app/namuna/)
+    > \* <a href="https://dxsjnxaknsx.netlify.app/namuna/" target="_blank">namunaga havola</a>
 
 3. Yuborish (Pull Request)
 
