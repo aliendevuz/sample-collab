@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #08141D;
+    color: white;
+}
+
+.body-container {
+    width: 1440px;
+    height: 100vh;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: #08141D;
+}
+
+/* Header Navigation */
+.header {
+    width: 1200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 20px;
+}
+
+.header-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    gap: 500px;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.campus-logo {
+    width: 32px;
+    height: 32px;
+}
+
+.logo-text {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-link {
+    color: #999;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #914BF1;
+}
+
+.get-started-btn {
+    background-color: #914BF1;
+    color: white;
+    border: none;
+    padding: 8px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.get-started-btn:hover {
+    background-color: #7D3BBF;
+}
+
+/* Hero Section */
+.hero {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 40px;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    gap: 60px;
+}
+
+.hero-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: white;
+}
+
+.hero-text h1 .highlight {
+    color: #914BF1;
+}
+
+.hero-text p {
+    font-size: 14px;
+    color: #999;
+    line-height: 1.6;
+    max-width: 400px;
+}
+
+.start-btn {
+    background-color: #914BF1;
+    color: white;
+    border: none;
+    padding: 12px 32px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    width: fit-content;
+    transition: background-color 0.3s ease;
+}
+
+.start-btn:hover {
+    background-color: #7D3BBF;
+}
+
+.hero-image {
+    /* flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+/* 
+.hero-image svg {
+    width: 350px;
+    height: 350px;
+    filter: drop-shadow(0 20px 40px rgba(145, 75, 241, 0.2));
+} */
+
+/* Logos Section */
+.logos-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.logo-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.logo-item:hover {
+    transform: translateY(-5px);
+}
+
+.logo-item span {
+    font-size: 13px;
+    color: #999;
+    font-weight: 500;
+}
+
+/* Responsive Design */
+@media (max-width: 1440px) {
+    .body-container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .body-container {
+        height: auto;
+    }
+    
+    .header {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .header-content {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .nav-menu {
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+    }
+    
+    .hero {
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+    
+    .hero-content {
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    .hero-text h1 {
+        font-size: 32px;
+    }
+    
+    .hero-image svg {
+        width: 250px;
+        height: 250px;
+    }
+    
+    .logos-section {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+.book_flower{
+    width: 700px;
+height: 649px;
+
+/* margin-top: 75px;
+margin-left: ; */
+}
